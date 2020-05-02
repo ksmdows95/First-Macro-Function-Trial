@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define PI 3.14
-#define ALAN(x, y) x*y*y 
+#define AREA(x, y) x*y*y 
 
 int main()
 {
@@ -8,7 +8,7 @@ int main()
 	double area;
 	printf("Enter the radius: ");
 	scanf("%d", &radius);
-	area = ALAN(PI, radius);
+	area = AREA(PI, radius);
 	printf("The area is %lf \n", area);
 
 }
